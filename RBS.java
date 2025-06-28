@@ -76,7 +76,6 @@ public class RBS {
             } else{
                 end = mid - 1;
             }
-
         }
         return -1;
     }
