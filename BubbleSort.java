@@ -5,7 +5,7 @@ public class BubbleSort {
         bubble(arr);
         System.out.println(Arrays.toString(arr));
     }
-
+    
     static void bubble(int[] arr){
         boolean swapped = false;
         // run the steps n-1 times
