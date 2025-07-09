@@ -1,6 +1,6 @@
 public class SetMismatch {
     public static void main(String[] args) {
-        int[] arr = {1, 2, 2, 4};
+        int[] arr = {2,1,4,2,6,5};
         int[] result = new SetMismatch().findErrorNums(arr);
         System.out.println("Duplicate: " + result[0] + ", Missing: " + result[1]);
     }
