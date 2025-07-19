@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        pattern31(4);
+        pattern6(4);
     }
 
     static void pattern1(int n) {
@@ -55,6 +55,23 @@ public class Main {
             }
             System.out.println();
         }
+    }
+
+    static void pattern6(int n) {
+        for (int row = 1; row <= n; row++) {
+
+        // First loop: print spaces
+        for (int col = 1; col <= n - row; col++) {
+            System.out.print("  ");
+        }
+
+        // Second loop: print stars
+        for (int col = 1; col <= row; col++) {
+            System.out.print("* ");
+        }
+
+        System.out.println();
+    }
     }
 
     static void pattern17(int n) {
